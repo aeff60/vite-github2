@@ -34,7 +34,7 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v3
         with:
-          node-version: 17,
+          node-version: latest,
           cache: 'npm'
       - name: Install Dependacies
         run: npm install 
